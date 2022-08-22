@@ -49,6 +49,24 @@ I learned how to use these lines of code:
 
 ```
 ```css
+.card-container {
+    margin-top: 50px;
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-2em);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+}
+
+
     .card-container {
         margin-left: 30px;
         margin-right: 30px;
@@ -95,6 +113,7 @@ In the future, I want to be able to work faster and create nav bars with fluidly
 - [CSS Tricks: A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) - This helped me with CSS Grid.
 - [MDN Web Docs: Box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) - This helped me with styling box shadows.
 - [CSS Tricks: A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This helped me with CSS Flexbox positioning. 
+- [The 2020 Frontend Developer Crash Course for Absolute Beginners](https://www.youtube.com/watch?v=QA0XpGhiz5w&list=WL&index=1&t=7130s) - this helped get the idea of adding an animation. I think its a nice detail that adds professionalism.
 
 
 ## Author

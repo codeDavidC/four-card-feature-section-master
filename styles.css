@@ -143,6 +143,19 @@ p {
 
 .card-container {
     margin-top: 50px;
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-2em);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+
+    }
 }
 
 .card {
@@ -196,6 +209,18 @@ p {
     justify-content: end;
 }
 
+.attribution { 
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(32, 100%, 50%); 
+}
+
 
 @media screen and (max-width: 300px) {
     .image {
@@ -240,22 +265,11 @@ p {
 
     .card {
         max-width: 350px;
+        margin-top: 0;
     }
 
     .card img {
         width: 64px;
     }
 
-}
-
-.attribution { 
-    margin-top: 40px;
-    margin-bottom: 20px;
-    color: #000000;
-    font-size: 11px; 
-    text-align: center; 
-}
-
-.attribution a { 
-    color: hsl(32, 100%, 50%); 
 }
